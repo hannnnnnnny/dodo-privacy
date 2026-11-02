@@ -1,14 +1,14 @@
 # DoDodo Privacy Policy
 
-Effective date: 2026-10-25
+Effective date: 2026-11-02
 
-DoDodo is a browser extension that turns your day into an adventurers' guild: you take quests (tasks), stay focused, and watch your adventurer grow. This policy explains what DoDodo records, where it lives, and how you control it.
+DoDodo is a browser extension that turns your day into a survival story: you take quests (tasks) by day and stay focused, your finished work earns Grace that you send down to a survivor in the town of Hollowmere, and each night that help becomes their defense against what comes after dark. This policy explains what DoDodo records, where it lives, and how you control it.
 
 ## The short version
 
 - DoDodo stores your data **only on your own device**, in your browser's local database (IndexedDB).
 - DoDodo **never sends anything over the network**. It makes no requests to any server, ours or anyone else's.
-- DoDodo uses **no analytics, no advertising, no third-party code or services**.
+- DoDodo uses **no analytics, no advertising and no third-party services**, and it never loads code from the internet: everything it runs, fonts included, ships inside the extension.
 - You can **export** all of your data and **delete** all of it at any time from Settings.
 
 ## What DoDodo records
@@ -17,8 +17,9 @@ All of the following is stored locally and nowhere else:
 
 - **Your tasks**: the title you type, category, whether it is an offline task, deadline, status, timestamps, and any work-site domains you set for that task.
 - **Focus records**: while a task is in progress, DoDodo looks at the active browser tab and records only its **domain name** (for example `docs.example.com`), how that domain was classified (work, distraction, neutral or unclassified), and start and end times. A domain is never stored together with a full URL.
-- **Day records**: the result of each day's settlement (what was delivered, missed, and growth earned).
-- **Your adventurer**: name, attributes, level and story progress.
+- **Day records**: the result of each day's settlement (what was delivered, missed, and growth earned) and that night's outcome.
+- **Your survival progress**: your survivor's name, attributes, health, nights and deaths, the lines of the Residents' Code you have recovered or seen through, the charms they carry, the Grace you have earned, the gifts waiting in the Well of Grace, what you have built onto their house, and which story passages you have already read. The morning letters are written from these records and are not stored separately.
+- **Your adventurer** (from earlier versions, if you used them): name, attributes, level and story progress. It is kept unchanged so an earlier version can still read it.
 - **Your settings**: end-of-work time, the work and distraction site lists you configure, and onboarding status.
 - **Internal state**: the date of the last settled day, the current tracking state, so tracking can resume after the browser restarts, and the most recent error message, shown in Settings to help you diagnose problems.
 
