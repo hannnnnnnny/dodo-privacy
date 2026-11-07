@@ -32,7 +32,6 @@ DoDodo never stores full URLs, page titles, page content, search queries, form d
 - `tabs`: to read the domain of your active tab during a focus session.
 - `idle`: to pause focus time when you step away from your computer.
 - `alarms`: to keep a once-a-minute heartbeat so focus time stays accurate even when the browser suspends the extension.
-- `storage`: to keep your data on your device.
 
 DoDodo requests no host permissions and cannot read or change the content of any website.
 
